@@ -14,6 +14,20 @@ Ce toolkit est conçu comme matériel pédagogique pour les cours de réseaux et
 * Pratiquer différents types de requêtes HTTP
 * Analyser les en-têtes et les réponses HTTP
 
+## 📋 Prérequis
+
+- Python 3.x
+- [Ollama](https://ollama.ai) - Pour le traitement des requêtes et le support IA
+- curl - Généralement préinstallé sur Linux/macOS, à installer sur Windows
+
+### Installation d'Ollama
+
+1. Téléchargez et installez Ollama depuis [ollama.ai](https://ollama.ai)
+2. Vérifiez l'installation :
+```bash
+ollama --version
+```
+
 ## 📁 Structure du projet
 
 ```
@@ -40,4 +54,3 @@ pip install -r requirements.txt
 ```bash
 python3 script.py
 ```
-
