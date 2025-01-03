@@ -14,6 +14,10 @@ Ce toolkit est conçu comme matériel pédagogique pour les cours de réseaux et
 * Pratiquer différents types de requêtes HTTP
 * Analyser les en-têtes et les réponses HTTP
 
+## 📊 Diagramme de classes
+
+![Diagramme de classes](./classe.svg)
+
 ## 📋 Prérequis
 
 - Node.js (version 14.x ou supérieure)
