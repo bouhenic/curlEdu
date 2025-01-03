@@ -16,23 +16,16 @@ Ce toolkit est conçu comme matériel pédagogique pour les cours de réseaux et
 
 ## 📋 Prérequis
 
-- Python 3.x
-- [Ollama](https://ollama.ai) - Pour le traitement des requêtes et le support IA
-- curl - Généralement préinstallé sur Linux/macOS, à installer sur Windows
-
-### Installation d'Ollama
-
-1. Téléchargez et installez Ollama depuis [ollama.ai](https://ollama.ai)
-2. Vérifiez l'installation :
-```bash
-ollama --version
-```
+- Node.js (version 14.x ou supérieure)
+- npm (généralement installé avec Node.js)
 
 ## 📁 Structure du projet
 
 ```
 curlEdu/
-└── script.py      # Script principal d'apprentissage
+├── app.js           # Script principal d'apprentissage
+├── package.json     # Configuration du projet Node.js
+└── README.md        # Documentation
 ```
 
 ## 🔧 Installation
@@ -42,15 +35,21 @@ curlEdu/
 git clone https://github.com/bouhenic/curlEdu.git
 cd curlEdu
 
-# Donner les droits d'exécution
-chmod +x script.py
-
-# Installation des dépendances Python (si nécessaire)
-pip install -r requirements.txt
+# Installation des dépendances Node.js
+npm install
 ```
 
 ## 🚀 Utilisation dans un cadre pédagogique
 
 ```bash
-python3 script.py
+node app.js
 ```
+
+## 📦 Dépendances principales
+
+- axios : Pour effectuer les requêtes HTTP
+- prompts : Pour l'interface utilisateur interactive
+
+## 💾 Sauvegarde des requêtes
+
+Les requêtes peuvent être sauvegardées dans un fichier JSON local pour référence ultérieure.
